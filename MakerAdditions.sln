@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS2_MakerAdditions", "src\HS2\HS2_MakerAdditions.csproj", "{23057B5D-4347-44A6-9815-FCA34600F474}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core.AIHS2", "src\Core.AIHS2\Core.AIHS2.shproj", "{841FFFF7-1940-4B7B-B21F-83E2F16333D4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "src\Shared\Shared.shproj", "{EB5932E9-2E02-4BAB-953B-4395E28CB89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI_MakerAdditions", "src\AI\AI_MakerAdditions.csproj", "{7D4C7DE5-DD31-4710-87C8-E7607F87E025}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core.KKEC", "src\Core.KKEC\Core.KKEC.shproj", "{F318B87C-8F40-45D5-8353-DEEA640182B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK_MakerAdditions", "src\KK\KK_MakerAdditions.csproj", "{F86505EE-D874-4CB2-9BB0-F41810E96EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EC_MakerAdditions", "src\EC\EC_MakerAdditions.csproj", "{F20D0DE9-B1AF-48A4-A9D3-8B407AC91746}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Core.AIHS2\Core.AIHS2.projitems*{23057b5d-4347-44a6-9815-fca34600f474}*SharedItemsImports = 4
+		src\Shared\Shared.projitems*{23057b5d-4347-44a6-9815-fca34600f474}*SharedItemsImports = 4
+		src\Core.AIHS2\Core.AIHS2.projitems*{7d4c7de5-dd31-4710-87c8-e7607f87e025}*SharedItemsImports = 4
+		src\Shared\Shared.projitems*{7d4c7de5-dd31-4710-87c8-e7607f87e025}*SharedItemsImports = 4
+		src\Core.AIHS2\Core.AIHS2.projitems*{841ffff7-1940-4b7b-b21f-83e2f16333d4}*SharedItemsImports = 13
+		src\Shared\Shared.projitems*{eb5932e9-2e02-4bab-953b-4395e28cb89b}*SharedItemsImports = 13
+		src\Core.KKEC\Core.KKEC.projitems*{f20d0de9-b1af-48a4-a9d3-8b407ac91746}*SharedItemsImports = 4
+		src\Shared\Shared.projitems*{f20d0de9-b1af-48a4-a9d3-8b407ac91746}*SharedItemsImports = 4
+		src\Core.KKEC\Core.KKEC.projitems*{f318b87c-8f40-45d5-8353-deea640182b3}*SharedItemsImports = 13
+		src\Core.KKEC\Core.KKEC.projitems*{f86505ee-d874-4cb2-9bb0-f41810e96ead}*SharedItemsImports = 4
+		src\Shared\Shared.projitems*{f86505ee-d874-4cb2-9bb0-f41810e96ead}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23057B5D-4347-44A6-9815-FCA34600F474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23057B5D-4347-44A6-9815-FCA34600F474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23057B5D-4347-44A6-9815-FCA34600F474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23057B5D-4347-44A6-9815-FCA34600F474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4C7DE5-DD31-4710-87C8-E7607F87E025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4C7DE5-DD31-4710-87C8-E7607F87E025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4C7DE5-DD31-4710-87C8-E7607F87E025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4C7DE5-DD31-4710-87C8-E7607F87E025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86505EE-D874-4CB2-9BB0-F41810E96EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86505EE-D874-4CB2-9BB0-F41810E96EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86505EE-D874-4CB2-9BB0-F41810E96EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86505EE-D874-4CB2-9BB0-F41810E96EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20D0DE9-B1AF-48A4-A9D3-8B407AC91746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20D0DE9-B1AF-48A4-A9D3-8B407AC91746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20D0DE9-B1AF-48A4-A9D3-8B407AC91746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20D0DE9-B1AF-48A4-A9D3-8B407AC91746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4B27C0D-D1E5-46AD-BD1A-44A99813A97C}
+	EndGlobalSection
+EndGlobal
